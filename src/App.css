@@ -1,0 +1,64 @@
+/* General Reset */
+body, h1, h2, h3, p, ul, li, a {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+  line-height: 1.6;
+  background-color: #f8f9fa; /* Light neutral background */
+  color: #333; /* Dark text for contrast */
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.App-header {
+  background-color: #5c7d4f; /* Earthy green tone */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.App-header h1 {
+  
+  font-size: 3.5rem;
+  font-weight: 200;
+}
+
+main {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.App-footer {
+  background-color: #5c7d4f;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.App-footer a {
+  color: #d8a31e; /* Gold accent */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.App-footer a:hover {
+  text-decoration: underline;
+}
+
+/* Links */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

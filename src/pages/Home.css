@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Covered+By+Your+Grace&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Walter+Turncoat&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+header {
+    background: #04085c;
+    color: #f7f3f3;
+    padding: 20px 0;
+    text-align: center;
+}
+header h1 {
+    font-family: "Covered By Your Grace", serif;
+    font-weight: 400;
+    font-style: normal;    margin: 0;
+    font-size: 3.5rem;
+    color: white;
+}
+header p {
+    margin: 5px 0 0;
+    font-size: 1.2rem;
+}
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+nav a {
+    text-decoration: none;
+    margin: 0 15px;
+    color: #fff;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.hero {
+    padding: 50px 20px;
+    text-align: center;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/7/7e/Creation_of_Light.png') no-repeat center center/cover;
+    color: #fff;
+}
+.hero h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+.hero p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #e94e77;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+.cta-button:hover {
+    background: #d43f67;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    font-size: 0.9rem;
+}
+footer a {
+    color: #4a90e2;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .hero {
+        padding: 40px 10px;
+    }
+
+    .hero h2 {
+        font-size: 1.5rem;
+    }
+}
