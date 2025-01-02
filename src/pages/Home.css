@@ -60,7 +60,23 @@ nav a:hover {
     font-weight: 200;
 }
 
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+}
 
+.description p {
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 1.5em;
+}
+
+.description p span {
+    color: red;
+    font-weight: 400;
+}
 .cta-button {
     display: inline-block;
     margin-top: 20px;
@@ -76,6 +92,9 @@ nav a:hover {
 .cta-button:hover {
     background: #d43f67;
 }
+
+
+
 footer {
     text-align: center;
     padding: 10px 0;

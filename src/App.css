@@ -18,17 +18,9 @@ body {
   min-height: 100vh;
 }
 
-.App-header {
-  background-color: #5c7d4f; /* Earthy green tone */
-  color: white;
-  padding: 20px;
-  text-align: center;
-}
-
-.App-header h1 {
-  
-  font-size: 3.5rem;
-  font-weight: 200;
+header nav {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 100;
 }
 
 main {
