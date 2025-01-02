@@ -41,23 +41,22 @@ nav a:hover {
 .hero {
     padding: 50px 20px;
     text-align: center;
-    background: url('https://upload.wikimedia.org/wikipedia/commons/7/7e/Creation_of_Light.png') no-repeat center center/cover;
-    color: #fff;
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('https://upload.wikimedia.org/wikipedia/commons/7/7e/Creation_of_Light.png') no-repeat center center/cover;
 }
 .hero h2 {
     font-size: 2rem;
     margin-bottom: 10px;
-    color: #ffffff;
+    color: #000000;
     font-family: sans-serif;
-    font-weight: 200;
+    font-weight: 400;
 }
 .hero p {
     font-size: 1.2rem;
     max-width: 700px;
     margin: 0 auto;
-    color: #ffffff;
+    color: #000000;
     font-family: sans-serif;
-    font-weight: 200;
+    font-weight: 400;
 }
 
 .description {
@@ -69,7 +68,7 @@ nav a:hover {
 
 .description p {
     font-family: sans-serif;
-    font-weight: 100;
+    font-weight: 200;
     font-size: 1.5em;
 }
 
@@ -81,7 +80,7 @@ nav a:hover {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
-    background: #e94e77;
+    background: #1a0e75;
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
