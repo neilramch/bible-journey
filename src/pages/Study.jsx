@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Study.css';
 
 function Study() {
+
   return (
     <div className="study-container">
       <header className="study-header">
@@ -10,6 +11,7 @@ function Study() {
       </header>
 
       <main className="study-content">
+      
         {/* Introduction Section */}
         <section id="introduction" className="study-section">
           <h2>Introduction</h2>
@@ -88,7 +90,7 @@ function Study() {
             era.
           </p>
         </section>
-
+     
         {/* Conclusion Section */}
         <section id="conclusion" className="study-section">
           <h2>Conclusion</h2>

@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import Map from './Map';
 import './Home.css';
+import Paper from './Paper';
 
 function Home() {
   const [showMap, setShowMap] = useState(false);
+
 
   const handleViewMap = () => {
     setShowMap(true); // Show the map when the button is clicked
@@ -28,6 +30,10 @@ function Home() {
       <p>This project is aimed at creating a <span>geographical representation</span> of events based on the five books of the Torah: Genesis, Exodus, Leviticus, Numbers, & Deuteronomy</p>
       <p>The study further attempts to use modern evidence using <span>archaeological and historical sources.</span></p>
       <p>To view the sources used to perform this research study, <span>visit the resources tab.</span></p>
+      </div>
+
+      <div className='garden'>
+        <Paper />
       </div>
 
       <footer>
