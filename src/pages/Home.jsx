@@ -36,6 +36,10 @@ function Home() {
         <Paper />
       </div>
 
+      <div className='tree'>
+         <img src='/adam-tree.svg'/>
+        </div>
+
     </div>
   );
 }

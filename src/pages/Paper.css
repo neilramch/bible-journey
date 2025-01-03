@@ -69,9 +69,14 @@
 
   }
 
+  .journey button:focus {
+    background-color: #01064d;
+    color: white;
+  }
 
-  .paper button {
-    color: black;
+  .tree img {
+    width: 1600px;
+    height: auto;
   }
 
   @media (max-width: 768px) {
