@@ -8,36 +8,7 @@ body {
     background-color: #f9f9f9;
     color: #333;
 }
-header {
-    background: #04085c;
-    color: #f7f3f3;
-    padding: 20px 0;
-    text-align: center;
-}
-header h1 {
-    font-family: "Covered By Your Grace", serif;
-    font-weight: 400;
-    font-style: normal;    margin: 0;
-    font-size: 3.5rem;
-    color: white;
-}
-header p {
-    margin: 5px 0 0;
-    font-size: 1.2rem;
-}
-nav {
-    text-align: center;
-    margin-top: 20px;
-}
-nav a {
-    text-decoration: none;
-    margin: 0 15px;
-    color: #fff;
-    font-weight: bold;
-}
-nav a:hover {
-    text-decoration: underline;
-}
+
 .hero {
     padding: 50px 20px;
     text-align: center;

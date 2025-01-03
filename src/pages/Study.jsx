@@ -40,16 +40,16 @@ function Study() {
           </p>
           <ol>
             <li>
-              **Data Collection:** Key locations and events were identified from biblical
+              Data Collection: Key locations and events were identified from biblical
               texts, primarily Genesis and Exodus.
             </li>
             <li>
-              **Map Creation:** An interactive map was created using Google My Maps,
+              Map Creation: An interactive map was created using Google My Maps,
               embedding theological, historical, and archaeological details for each
               marker.
             </li>
             <li>
-              **Source Analysis:** Insights were drawn from biblical commentaries,
+              Source Analysis: Insights were drawn from biblical commentaries,
               archaeological studies, and scholarly research.
             </li>
           </ol>
